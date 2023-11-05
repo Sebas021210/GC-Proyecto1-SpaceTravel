@@ -1,5 +1,6 @@
 #pragma once
 #include "glm/glm.hpp"
+#include "fragment.h"
 
 struct Uniforms {
     glm::mat4 model;
