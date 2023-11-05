@@ -15,5 +15,5 @@ set(GLM_INCLUDE_DIR "C:/Users/50242/Documents/Universidad/TercerAño/GraficasCom
 include_directories(${SDL2_INCLUDE_DIR} ${GLM_INCLUDE_DIR})
 link_directories(${SDL2_LIB_DIR})
 
-add_executable(GC_Proyecto1_SpaceTravel main.cpp)
+add_executable(GC_Proyecto1_SpaceTravel main.cpp camera.h color.h FastNoise.h FastNoiseLite.h fragment.h framebuffer.h line.h noise.h ObjLoader.cpp print.h shaders.h triangle.h uniforms.h)
 target_link_libraries(GC_Proyecto1_SpaceTravel SDL2main SDL2)
