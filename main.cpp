@@ -101,11 +101,7 @@ void render(const std::vector<glm::vec3>& VBO, const Uniforms& uniforms) {
 
 glm::mat4 createViewportMatrix(size_t screenWidth, size_t screenHeight) {
     glm::mat4 viewport = glm::mat4(1.0f);
-
-    // Scale
     viewport = glm::scale(viewport, glm::vec3(screenWidth / 2.0f, screenHeight / 2.0f, 0.5f));
-
-    // Translate
     viewport = glm::translate(viewport, glm::vec3(1.0f, 1.0f, 0.5f));
 
     return viewport;
@@ -201,9 +197,7 @@ int main(int argc, char* argv[]) {
             }
 
             if (event.type == SDL_KEYDOWN) {
-
                 switch (event.key.keysym.sym) {
-
                     case SDLK_SPACE:
                         // Cycle to next planet camera
                         currentPlanet = (currentPlanet + 1) % planets.size();
