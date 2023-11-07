@@ -11,5 +11,7 @@ Para este proyecto, se debe crear una simulación del sistema solar usando un so
 - `D` para mover la camara en el eje x.
 - `W` para mover la camara en el eje y.
 - `S` para mover la camara en el eje y.
+- `R` restablecer camara.
 
 ## Video
+https://youtu.be/yPUj11N0TdA
