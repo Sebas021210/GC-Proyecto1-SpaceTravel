@@ -2,7 +2,7 @@
 Para este proyecto, se debe crear una simulación del sistema solar usando un software renderer.
 
 ## Sistema Solar
-<img src="https://github.com/Sebas021210/GC-Proyecto1-SpaceTravel/blob/48f5fc6f5c24269517490f9c16b3ac176796a785/image/SpaceTravel1.png" width="500" height="300">
+![](https://github.com/Sebas021210/GC-Proyecto1-SpaceTravel/blob/dcf3bf9982634a3086487233d5591a650fdd00a3/image/SpaceTravel.gif)
 
 ## Controles
 - `Flecha Arriba` para aumentar el zoom.
